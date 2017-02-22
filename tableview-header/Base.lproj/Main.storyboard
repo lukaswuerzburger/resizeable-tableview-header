@@ -13,7 +13,7 @@
         <!--Navigation Controller-->
         <scene sceneID="z99-uJ-U6B">
             <objects>
-                <navigationController id="Cad-vx-1TW" customClass="NavigationController" customModule="tableview_header" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController id="Cad-vx-1TW" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="0Ri-bL-LJe">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -71,7 +71,6 @@
         <!--Detail View Controller-->
         <scene sceneID="E4L-6j-re3">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="fkG-aK-kP2" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController automaticallyAdjustsScrollViewInsets="NO" id="3xR-qL-Sfu" customClass="DetailViewController" customModule="tableview_header" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="rsP-Vs-dta"/>
@@ -154,6 +153,7 @@
                         <outlet property="topViewHeightConstraint" destination="bTC-zl-AtZ" id="r3L-es-GqK"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fkG-aK-kP2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1402" y="188"/>
         </scene>

@@ -37,7 +37,6 @@ class DetailViewController: UIViewController, UITableViewDataSource, UITableView
         if let navigationController = navigationController {
             navigationController.navigationBar.setBackgroundImage(UIImage(), for: .default)
             navigationController.navigationBar.shadowImage = UIImage()
-//            navigationController.navigationBar.isTranslucent = true
         }
     }
 
@@ -47,7 +46,6 @@ class DetailViewController: UIViewController, UITableViewDataSource, UITableView
         if let navigationController = navigationController {
             navigationController.navigationBar.setBackgroundImage(nil, for: .default)
             navigationController.navigationBar.shadowImage = nil
-//            navigationController.navigationBar.isTranslucent = false
         }
     }
 
@@ -63,7 +61,7 @@ class DetailViewController: UIViewController, UITableViewDataSource, UITableView
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell: UITableViewCell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        cell.textLabel?.text = "AAA"
+        cell.textLabel?.text = "BBB"
         return cell
     }
 
