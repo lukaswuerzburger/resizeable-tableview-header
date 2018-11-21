@@ -1,4 +1,4 @@
-# Resizeable tableview header
+# Resizeable tableView header
 
 An implementation example of the, in iOS 10 introduced, detail view of the Contacts/Phone app 
 
